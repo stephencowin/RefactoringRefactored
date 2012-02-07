@@ -160,6 +160,6 @@ public class CustomerTest extends TestCase {
 		} catch(IllegalArgumentException e){
 			assert(true);
 		}
-		assert(false);
 	}
+	
 }

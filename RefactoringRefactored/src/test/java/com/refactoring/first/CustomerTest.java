@@ -154,4 +154,12 @@ public class CustomerTest extends TestCase {
 		assertEquals("1.5", prop.getProperty("oneAndHalf"));
 	}
 
+	public void testForException(){
+		try{
+		Movie movie1 = new Movie("Madagascar", 99);
+		} catch(IllegalArgumentException e){
+			assert(true);
+		}
+		assert(false);
+	}
 }
